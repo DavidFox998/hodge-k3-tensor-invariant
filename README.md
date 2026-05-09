@@ -17,7 +17,7 @@ The bound Z ≤ 20 fails for large discriminant CM fields.
 2. Paste the contents of `verify_k3.sage`
 3. Hit Evaluate
 
-[[Run on SageMathCell](https://sagecell.sagemath.org/static/icons/sagemathbadge.svg)](https://sagecell.sagemath.org/)
+[[Run on SageMathCell](https://sagecell.sagemath.org/static/icons/sagemathbadge.svg)](https://sagecell.sagemath.org/)(https://sagecell.sagemath.org/static/icons/sagemathbadge.svg)](https://sagecell.sagemath.org/)
 
 ### **Run locally**
 ```bash
