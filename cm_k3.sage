@@ -37,7 +37,6 @@ def verify_single_d(d):
     except Exception as e:
         print(f"ERROR d={d}: {e}")
         return False
-
 def main():
     print("ZOE INVARIANT VERIFICATION FOR CM K3 SURFACES")
     print(f"Testing: Z(ω) ≤ {BOUND} for all ω ∈ NS(X)_QQ")
@@ -57,5 +56,4 @@ def main():
 
     return all_pass
 
-if __name__ == "__main__":
     main()
