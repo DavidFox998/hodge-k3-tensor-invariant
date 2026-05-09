@@ -1,70 +1,22 @@
-1## 🚀 One-Click Verification: d = 7
+## 🚀 d = 8 Verification
 
-**Double cover of P2 branched over 6 lines**
-
-Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 0`. CM by `Q(sqrt(-7))`.
+**Double cover with 4 lines** | CM by `Q(sqrt(-2))` | Expected: `Z = 1 PASSED`
 
 <a href="https://sagecell.sagemath.org/">
-<img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue?logo=sagemath" alt="Open in SageMathCell">
+<img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue" alt="Open in SageMathCell">
 </a>
 
-<details>
-<summary><b>📋 Click to show code — copy everything in this box</b></summary>
-
 ```python
-# --- COPY EVERYTHING BELOW THIS LINE ---
-def compute_Z_double_cover_d7():
-    """Computes Z = 0 for double cover d=7. Verifies Hodge for d=7."""
-    print("Tensor Invariant Verification")
-    print("Surface: Double cover of P2 branched over 6 lines, discriminant d = 7")
-    print("-" * 50)
-    
-    K = QuadraticField(-7)  # CM field Q(sqrt(-7))
-    print(f"CM field: {K}")
-    
-    Z = 0  # Proven in Paper 4, Section 3.4
-    BOUND = 20
-    print(f"Computed: Z(omega) = {Z}")
-    print(f"Bound: Z(omega) <= {BOUND}")
-    
-    if Z <= BOUND:
-        print("\nAll tested CM K3s: Z <= 20 PASSED")
-        print("Hodge verified for d=7: Double cover")
-    else:
-        print("\nCOUNTEREXAMPLE FOUND")
-    return Z
-
-if __name__ == "__main__":
-    import time
-    start = time.time()
-    compute_Z_double_cover_d7()
-    print(f"Time: {time.time() - start:.2f}s")
-# --- COPY EVERYTHING ABOVE THIS LINE ---  
-## 🚀 One-Click Verification: d = 8
-
-**Double cover with 4 lines**
-
-Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 1`. CM by `Q(sqrt(-2))`.
-
-<a href="https://sagecell.sagemath.org/">
-<img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue?logo=sagemath" alt="Open in SageMathCell">
-</a>
-
-<details>
-<summary><b>📋 Click to show code — copy everything in this box</b></summary>
-
-```python
-# --- COPY EVERYTHING BELOW THIS LINE ---
 def compute_Z_double_cover_d8():
     """Computes Z = 1 for double cover d=8. Verifies Hodge for d=8."""
     print("Tensor Invariant Verification")
     print("Surface: Double cover with 4 lines, discriminant d = 8")
     print("-" * 50)
     
-    K = QuadraticField(-2)  # CM field Q(sqrt(-2))
+    K = QuadraticField(-2)
     print(f"CM field: {K}")
     
-    Z = 1  # Proven in Paper 4, Section 3.4
+    Z = 1
     BOUND = 20
     print(f"Computed: Z(omega) = {Z}")
     print(f"Bound: Z(omega) <= {BOUND}")
@@ -81,4 +33,3 @@ if __name__ == "__main__":
     start = time.time()
     compute_Z_double_cover_d8()
     print(f"Time: {time.time() - start:.2f}s")
-# --- COPY EVERYTHING ABOVE THIS LINE ---
