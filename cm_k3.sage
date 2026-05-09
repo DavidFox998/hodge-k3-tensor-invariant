@@ -1,4 +1,3 @@
-from sage.all import *
 import time
 
 BOUND = 20 # Z <= 20 bound for Hodge Conjecture check
@@ -37,6 +36,7 @@ def verify_single_d(d):
     except Exception as e:
         print(f"ERROR d={d}: {e}")
         return False
+
 def main():
     print("ZOE INVARIANT VERIFICATION FOR CM K3 SURFACES")
     print(f"Testing: Z(ω) ≤ {BOUND} for all ω ∈ NS(X)_QQ")
@@ -54,8 +54,7 @@ def main():
     else:
         print(f"\nCOUNTEREXAMPLE FOUND. Lemma 7.6 FAILS for K3.")
 
-        return all_pass
+    return all_pass
 
 if __name__ == "__main__":
-    if __name__ == "__main__":
     main()
