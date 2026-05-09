@@ -29,7 +29,7 @@ This repository disproves Lemma 7.6 for K3 surfaces. The script `cm_k3.sage` com
 
 **Result:** Counterexamples found for $d = 43, 67, 163$:
 
-![Computational Verification] (Computational_Verification.jpg)
+![Computational Verification](Computational_Verification%20.jpg)
 
 The bound $Z(\omega) \leq 20$ fails. We obtain $Z = 22, 34, 82 > 20$. 
 
