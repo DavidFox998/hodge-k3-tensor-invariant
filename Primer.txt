@@ -1,0 +1,40 @@
+HODGE MEASUREMENT PROGRAM — PRIMER v1.0
+May 8, 2026
+
+GOAL: Extend the computable Hodge test Z(ω) from CM abelian varieties to all smooth projective varieties where periods are computable.
+
+STATUS:
+1. CM abelian varieties, End^0(X)=Q: SOLVED. Z(ω) ≤ binom(g,p) holds. Papers 1-3.
+2. Next targets: K3 surfaces, CM abelian varieties with End^0(X)≠Q, simple abelian 3-folds.
+
+CORE INSIGHT:
+Hodge classes are tensors. Algebraic classes have low tensor rank.
+Paper 1: For p=1, Hankel rank = tensor rank. Test works.
+Paper 2: For p≥2, Hankel rank < tensor rank. Test fails. 200 counterexamples found.
+Paper 3: Zoe invariant Z(ω) = true tensor rank. Lemma 7.6: Z(ω) ≤ binom(g,p) if algebraic.
+
+THE 3-PILLAR STRATEGY:
+[1] COMPUTE: Find varieties where periods of H^{p,p} are computable exactly.
+[2] MEASURE: Compute Z(ω) for all Hodge classes. Compare to binom(g,p).
+[3] CLASSIFY: If Z(ω) ≤ bound, construct the algebraic cycle. If Z > bound, prove transcendental.
+
+NON-NEGOTIABLES:
+1. All arithmetic exact over QQ. No floats. No numerics.
+2. One-command verification. Every claim runs as `sage verify_*.sage`.
+3. If Z(ω) > binom(g,p), the class is transcendental. No exceptions.
+4. We do not claim Hodge for varieties we cannot compute.
+
+CURRENT BOUNDARY:
+We can compute Z(ω) iff we can compute the period matrix of X to arbitrary precision
+and the CM field is known. This covers CM abelian varieties, some K3s, and Fermat hypersurfaces.
+
+NEXT CLASS: K3 surfaces with CM by an imaginary quadratic field.
+Reason: Periods computable via Borcherds products. NS(X) has rank ≤ 20. H^{2,2} = H^4 is 1-dim,
+but H^{1,1} has dim 20. Test: Can Z(ω) detect algebraic cycles in Pic(X)?
+
+SUCCESS METRIC:
+For each new class of varieties, either:
+A) Verify Hodge for all tested examples, or
+B) Produce explicit ω with Z(ω) > binom(g,p) as counterexample to naive bounds.
+
+This file is the law. Update after each new class.
