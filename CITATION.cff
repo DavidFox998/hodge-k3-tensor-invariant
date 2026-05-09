@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors: "David J Fox"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "David"
+  given-names: "Fox"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "hodge-k3-tensor-invariant"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2026-05-08
+url: "https://github.com/DavidFox998/hodge-k3-tensor-invariant"
+repository-code: "https://github.com/DavidFox998/hodge-k3-tensor-invariant"
+version: "4.0.0-d3"
