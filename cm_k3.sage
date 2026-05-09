@@ -54,6 +54,7 @@ def main():
     else:
         print(f"\nCOUNTEREXAMPLE FOUND. Lemma 7.6 FAILS for K3.")
 
-    return all_pass
+        return all_pass
 
+if __name__ == "__main__":
     main()
