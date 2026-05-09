@@ -19,7 +19,7 @@ discriminant CM fields.
 
 ![SageCell Output](output.jpg)
 ### **Run it online Online**
-1. **Get the code**: [cm_k3.sage](https://raw.githubusercontent.com/DavidFox998/hodge-k3-tensor-invariant/main/cm_k3.sage)
+1. **Get the code**: [cm_k3.sage](https://github.com/DavidFox998/hodge-k3-tensor-invariant/blob/main/cm_k3.sage) → tap `Raw` → copy
 2. Go to [SageMathCell](https://sagecell.sagemath.org/)
 3. Paste the code → Evaluate
 [Run on SageMathCell](https://sagecell.sagemath.org/)
