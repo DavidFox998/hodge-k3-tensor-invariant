@@ -52,4 +52,9 @@ def main():
     if all_pass:
         print(f"All tested CM K3s: Z ≤ {BOUND}. Hodge VERIFIED for (1,1)-classes.")
     else:
-        print(f"\nCOUNTEREXAMPLE FOUND. Lemma 7.6 FAILS
+        print(f"\nCOUNTEREXAMPLE FOUND. Lemma 7.6 FAILS for K3.")
+
+    return all_pass
+
+if __name__ == "__main__":
+    main()
