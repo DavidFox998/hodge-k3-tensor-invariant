@@ -1,1 +1,18 @@
-
+cff-version: 1.2.0
+title: "Tensor Invariant Verifies Hodge for CM K3 Surfaces"
+message: "If you use this software, please cite Paper 4 of the Hodge Measurement Program."
+type: software
+authors:
+    - family-names: "Fox"
+    given-names: "David"
+    - name: "Hodge Measurement Program"
+repository-code: "https://github.com/DavidFox/hodge-k3-zoe-invariant"
+license: "MIT"
+version: "4.0.0-d3"
+date-released: 2026-05-08
+keywords:
+    - "Hodge conjecture"
+    - "K3 surfaces"
+    - "tensor rank"
+    - "SageMath"
+    - "complex multiplication"
