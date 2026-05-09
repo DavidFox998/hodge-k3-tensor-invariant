@@ -9,7 +9,7 @@ Click → Run → Verify `Z = 0`. No install required.
 **Or copy-paste this into https://sagecell.sagemath.org:**
 
 ```python
-# Paper 4: Tensor Invariant for CM K3 Surfaces - d=3 verification
+Surfaces - d=3 verification
 def compute_Z_fermat_quartic():
     """Computes Z = 0 for Fermat quartic. Verifies Hodge for d=3."""
     print("Tensor Invariant Verification")
