@@ -1,3 +1,16 @@
+
+## 🚀 One-Click Verification: d = 4
+
+**Kummer surface of `E × E`, `E: y^2 = x^3 - x`**
+
+Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 0`. CM by `Q(i)`.
+
+<a href="https://sagecell.sagemath.org/">
+<img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue?logo=sagemath" alt="Open in SageMathCell">
+</a>
+
+**Code to paste:**
+```python
 def compute_Z_kummer_d4():
     """Computes Z = 0 for Kummer d=4. Verifies Hodge for d=4."""
     print("Tensor Invariant Verification")
