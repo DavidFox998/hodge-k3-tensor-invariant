@@ -57,6 +57,8 @@ if __name__ == "__main__":
     print(f"Total time: {time.time() - start:.2f}s")
 ```
 
+
+` ` `
 d =  3 PASSED
 d =  4 PASSED
 d =  5 PASSED
@@ -70,3 +72,4 @@ d = 19 PASSED
 RESULT: All 9 CM K3s satisfy Z <= 20
 Hodge Conjecture verified for discriminant d <= 19
 Total time: 0.00s
+` ` `
