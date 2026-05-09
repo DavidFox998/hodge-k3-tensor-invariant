@@ -8,19 +8,6 @@ Extend Lemma 7.6 from Paper 3 to K3 surfaces with CM. Test: `Z(ω) ≤ 20` for a
 ## Status
 - **d=3**: Fermat quartic `x0^4+x1^4+x2^4+x3^4=0`. CM by `QQ(sqrt(-3))`. **PASS**
 - **d=4,7,...**: Not implemented yet.
-
-## One-Command Verification
-```bash
-sage verify_k3.sage
-## Quick Verification
-Run this in SageMathCell to verify Z = 0 for d=3:
-
-## One-Command Verification
-
-Run this in SageMathCell to verify Z = 0 for d=3:
-
-https://sagecell.sagemath.org
-
 ```python
 # verify_k3_sagecell.sage - Self-contained d=3 test
 # Paper 4: Tensor Invariant for CM K3 Surfaces
