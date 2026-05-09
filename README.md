@@ -42,8 +42,7 @@ if __name__ == "__main__":
 
 **Double cover of P2 branched over 6 lines**
 
-Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 0`. CM by `Q(√-7)`.
-
+Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 0`. CM by `Q(sqrt(-7))`.
 <a href="https://sagecell.sagemath.org/">
 <img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue?logo=sagemath" alt="Open in SageMathCell">
 </a>
