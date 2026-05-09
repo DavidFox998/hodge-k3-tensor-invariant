@@ -1,8 +1,9 @@
-def compute_Z_double_cover_d7():
-    Computes Z = 0 for double cover d=7. Verifies Hodge for d=7."""
-    print("Tensor Invariant Verification")
-    print("Surface: Double cover of P2 branched over 6 lines, discriminant d = 7")
-    print("-" * 50)
+1  def compute_Z_double_cover_d7():
+2      Computes Z = 0 for double cover d=7.
+3  Verifies Hodge for d=7."""
+4      print("Tensor Invariant Verification")
+5      print("Surface: Double cover of P2
+6  branched over 6 lines, discriminant d = 7")
     
     K = QuadraticField(-7)  # CM field Q(sqrt(-7))
     print(f"CM field: {K}")
