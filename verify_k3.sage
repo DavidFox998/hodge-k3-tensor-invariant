@@ -18,8 +18,7 @@ LATTICES = {
     163: Matrix(ZZ, [[2, 1], [1, 82]])
 }
 
-def tensor_invariant_k3(v, T):
-    Q = T.gram_matrix()
+def tensor_invariant_k3(v, Q):
     q = v.dot_product(Q * v)
     return q
 
