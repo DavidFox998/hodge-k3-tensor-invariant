@@ -18,7 +18,7 @@ with Z = 22, 34, 82
 The bound Z ≤ 20 fails for large 
 discriminant CM fields.
 
-![SageCell Output](output.png)
+![SageCell Output](output.jpeg)
 ### **Run it online**
 1. Go to [SageMathCell](https://sagecell.sagemath.org/)
 2. Open `verify_k3.sage` in this repo
