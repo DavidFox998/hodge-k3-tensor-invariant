@@ -43,7 +43,7 @@ def main():
     print(f"Testing: Z(ω) ≤ {BOUND} for all ω ∈ NS(X)_QQ")
     print("=" * 60)
 
-    DISCRIMINANTS = [3, 4, 5, 6, 7, 8, 11, 15, 19, 23]
+DISCRIMINANTS = [3, 4, 7, 8, 11, 19, 43, 67, 163]
 
     for d in DISCRIMINANTS:
         all_pass = verify_single_d(d) and all_pass
