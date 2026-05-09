@@ -1,4 +1,4 @@
-# Zoe Invariant Verifies Hodge for CM K3 Surfaces
+# "Tensor Invariant Verifies Hodge for CM K3 Surfaces
 
 Paper 4 of the Hodge Measurement Program
 
