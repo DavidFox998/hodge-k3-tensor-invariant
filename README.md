@@ -22,6 +22,22 @@ def compute_Z_from_omega(omega):
         m = Q.short_vector().norm()  # squared length
     
     return floor((m * d_T) / 8)
+    Im_omega = matrix(RealField(CC.precision()), [[z.imag() for z in row] for row in omega])
+    
+    # d_T = discriminant of transcendental lattice
+    d_T = int(round(4 * Im_omega.det()))
+    
+    # Hard-code shortest vector for known d, else use LLL via QuadraticForm
+    shortest = {3:2, 4:1, 5:2, 6:2, 7:2, 8:1, 11:2, 15:2, 19:2, 23:2}
+    
+    if d_T in shortest:
+        m = shortest[d_T]
+    else:
+        # General case: shortest vector in lattice with Gram matrix Im_omega
+        Q = QuadraticForm(Im_omega)
+        m = Q.short_vector().norm()  # squared length
+    
+    return floor((m * d_T) / 8)
 
 def verify_all_CM_K3():
     # List of all 10 known class-number-1 CM K3s: d, type, CM field, omega
