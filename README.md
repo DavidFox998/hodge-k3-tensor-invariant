@@ -10,7 +10,7 @@ All 10 cases PASS. Z values: 3, 2, 5, 6, 2, 1, 2, 2, 2, 5
 2. Paste the contents of `verify_k3.sage`
 3. Hit Evaluate
 
-**Permalink:** [Run on SageMathCell](https://sagecell.sagemath.org/?q=your-code-here)
+**Permalink:** [Run on SageMathCell](https://sagecell.sagemath.org/?z=eJxd...)
 
 ### **Run locally**
 ```bash
@@ -18,8 +18,7 @@ sage verify_k3.sage
 ` ` `
 
 ### **Files**
-- `verify_k3.sage` — Main script. Self-contained, no dependencies. Ends with `# --- BREAK --- d j f` marker.
-- `README.md` — This file
+- `verify_k3.sage` - Main script. Self-contained, no dependencies. Ends with `# --- BREAK --- d j f` marker.
 - `LICENSE` — MIT
 
 ### **Method**
