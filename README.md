@@ -19,6 +19,5 @@ discriminant CM fields.
 
 ![SageCell Output](output.jpg)
 ### **Run it online**
-1. **Get the code**: [`cm_k3.sage`](./cm_k3.sage?raw=1)
 
 [Run on SageMathCell](https://sagecell.sagemath.org/)
