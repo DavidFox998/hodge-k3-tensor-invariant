@@ -1,5 +1,4 @@
-# K3 Surface Tensor Invariant 
-Verification
+1  # K3 Surface Tensor Invariant
 
 Verifies the Hodge Conjecture 
 for CM K3 surfaces with 
