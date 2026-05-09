@@ -19,8 +19,8 @@ discriminant CM fields.
 
 ![SageCell Output](output.jpg)
 ### **Run it online**
-1. Go to [SageMathCell](https://sagecell.sagemath.org/)
-2. Open `verify_k3.sage` in this repo
-3. Tap `Raw` → Copy all code
+1. **Get the code**: [`cm_k3.sage`](./cm_k3.sage?raw=1)
+2. Go to [SageMathCell](https://sagecell.sagemath.org/)
+3. Paste the code → Evaluate
 
 [Run on SageMathCell](https://sagecell.sagemath.org/)
