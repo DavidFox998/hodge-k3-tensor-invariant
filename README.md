@@ -56,7 +56,7 @@ def compute_Z_double_cover_d7():
     print("Surface: Double cover of P2 branched over 6 lines, discriminant d = 7")
     print("-" * 50)
     
-    K.<a> = QuadraticField(-7)  # CM field Q(√-7)
+       K.<a> = QuadraticField(-7)  # CM field Q(sqrt(-7))
     print(f"CM field: {K}")
     
     Z = 0  # Proven in Paper 4, Section 3.4
