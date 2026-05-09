@@ -22,6 +22,6 @@ discriminant CM fields.
 ### **Run it online**
 1. Go to [SageMathCell](https://sagecell.sagemath.org/)
 2. Open `verify_k3.sage` in this repo
-4. Paste into SageMathCell → Evaluate
+3. Tap `Raw` → Copy all code
 
-[[Run on SageMathCell](https://sagecell.sagemath.org/static/icons/sagemathbadge.svg)](https://sagecell.sagemath.org/)
+[Run on SageMathCell](https://sagecell.sagemath.org/)
