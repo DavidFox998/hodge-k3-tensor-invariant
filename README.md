@@ -73,7 +73,8 @@ RESULT: All 9 CM K3s satisfy Z <= 20
 Hodge Conjecture verified for discriminant d <= 19
 Total time: 0.00s
 ` ` `
-   *Per Paper 4, Lemma 7.6: `Z ≤ 20` implies Hodge holds. All 9 cases pass.*
+
+*Per Paper 4, Lemma 7.6: `Z ≤ 20` implies Hodge holds. All 9 cases pass.*
 
 ### What This Proves
 
