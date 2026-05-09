@@ -6,10 +6,10 @@ authors:
     - family-names: "Fox"
     given-names: "David"
     - name: "Hodge Measurement Program"
-repository-code: "https://github.com/DavidFox/hodge-k3-zoe-invariant"
+repository-code: "https://github.com/DavidFox998/hodge-k3-tensor-invariant"
 license: "MIT"
 version: "4.0.0-d3"
-date-released: 2026-05-08
+date-released: "2026-05-08"
 keywords:
     - "Hodge conjecture"
     - "K3 surfaces"
