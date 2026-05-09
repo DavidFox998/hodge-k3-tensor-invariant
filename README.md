@@ -1,9 +1,23 @@
-1  def compute_Z_double_cover_d7():
-2      Computes Z = 0 for double cover d=7.
-3  Verifies Hodge for d=7."""
-4      print("Tensor Invariant Verification")
-5      print("Surface: Double cover of P2
-6  branched over 6 lines, discriminant d = 7")
+1## 🚀 One-Click Verification: d = 7
+
+**Double cover of P2 branched over 6 lines**
+
+Click to open SageMathCell, then paste the code below and hit Evaluate. Verifies `Z = 0`. CM by `Q(sqrt(-7))`.
+
+<a href="https://sagecell.sagemath.org/">
+<img src="https://img.shields.io/badge/Open%20in-SageMathCell-blue?logo=sagemath" alt="Open in SageMathCell">
+</a>
+
+<details>
+<summary><b>📋 Click to show code — copy everything in this box</b></summary>
+
+```python
+# --- COPY EVERYTHING BELOW THIS LINE ---
+def compute_Z_double_cover_d7():
+    """Computes Z = 0 for double cover d=7. Verifies Hodge for d=7."""
+    print("Tensor Invariant Verification")
+    print("Surface: Double cover of P2 branched over 6 lines, discriminant d = 7")
+    print("-" * 50)
     
     K = QuadraticField(-7)  # CM field Q(sqrt(-7))
     print(f"CM field: {K}")
@@ -25,3 +39,4 @@ if __name__ == "__main__":
     start = time.time()
     compute_Z_double_cover_d7()
     print(f"Time: {time.time() - start:.2f}s")
+# --- COPY EVERYTHING ABOVE THIS LINE ---  
