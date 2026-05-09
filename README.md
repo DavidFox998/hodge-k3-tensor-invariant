@@ -36,3 +36,20 @@ if __name__ == "__main__":
     start = time.time()
     compute_Z_fermat_quartic()
     print(f"Time: {time.time() - start:.2f}s")
+...
+32      return Z
+33
+34  if __name__ == "__main__":
+...     # rest of d=3 code
+... 
+        print(f"Time: {time.time() - start:.2f}s")
+```  <-- this is the end of d=3
+
+← PASTE THE d=4 BLOCK HERE, starting with ## 🚀 One-Click Verification: d = 4
+
+### **Why not line 21?**
+Line 21 is between `print(f"CM field: {K}")` and `Z = 0` inside your `d = 3` function. Dropping a whole new markdown section there would give you `IndentationError` and break both verifications.
+
+**Rule**: Keep each `d = 3`, `d = 4`, `d = 7` as separate sections. One after the other, not nested inside each other.
+
+Scroll to the bottom of the `d = 3` code, skip a line, then paste. You got this.
