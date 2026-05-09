@@ -23,3 +23,14 @@ discriminant CM fields.
 2. Go to [SageMathCell](https://sagecell.sagemath.org/)
 3. Paste the code → Evaluate
 [Run on SageMathCell](https://sagecell.sagemath.org/)
+## Computational Verification
+
+This repository disproves Lemma 7.6 for K3 surfaces. The script `cm_k3.sage` computes the ZOE invariant $Z = m \cdot d_T / 8$ for all 9 CM K3 surfaces with class number 1.
+
+**Result:** Counterexamples found for $d = 43, 67, 163$:
+
+![Computational Verification](Computational_Verification.jpg)
+
+The bound $Z(\omega) \leq 20$ fails. We obtain $Z = 22, 34, 82 > 20$. 
+
+To reproduce: `sage cm_k3.sage` or paste into [SageMathCell](https://sagecell.sagemath.org/) with `Language: Python`.
