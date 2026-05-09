@@ -1,9 +1,0 @@
-cff-version: "1.2.0"
-title: "Tensor Invariant Verifies Hodge for CM K3 Surfaces"
-message: "If you use this software, please cite Paper 4 of the Hodge Measurement Program."
-type: software
-authors:
-    - family-names: "Fox"
-    given-names: "David"
-repository-code: "https://github.com/DavidFox998/hodge-k3-tensor-invariant"
-license: "MIT"
