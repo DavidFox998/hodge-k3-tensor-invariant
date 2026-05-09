@@ -44,19 +44,3 @@ def compute_Z_fermat_quartic():
     BOUND = 20
     print(f"Computed: Z(ω) = {Z}")
     print(f"Bound: Z(ω) ≤ {BOUND}")
-    
-    if Z <= BOUND:
-        print("\nAll tested CM K3s: Z ≤ 20 PASSED")
-        print("Hodge verified for d=3: Fermat quartic")
-        return True
-    else:
-        print("\nCOUNTEREXAMPLE FOUND")
-        return False
-
-if __name__ == "__main__":
-    import time
-    start = time.time()
-    result = compute_Z_fermat_quartic()
-    print(f"Time: {time.time() - start:.2f}s")
-
-Expected output: `Z(ω) = 0` → Hodge verified for Fermat quartic
