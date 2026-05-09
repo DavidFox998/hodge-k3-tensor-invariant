@@ -1,5 +1,5 @@
-*.sage.py
+.sage.py
 __pycache__/
 .sage/
-*.swp
+.swp
 .DS_Store
