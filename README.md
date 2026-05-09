@@ -1,5 +1,5 @@
 def compute_Z_double_cover_d7():
-    """Computes Z = 0 for double cover d=7. Verifies Hodge for d=7."""
+    Computes Z = 0 for double cover d=7. Verifies Hodge for d=7."""
     print("Tensor Invariant Verification")
     print("Surface: Double cover of P2 branched over 6 lines, discriminant d = 7")
     print("-" * 50)
