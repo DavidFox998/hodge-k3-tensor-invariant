@@ -9,7 +9,7 @@ def compute_Z_from_known_data(d):
     Z = m * d_T / 8
     """
     known_data = {
-        known_data = {
+known_data = {
     3: (12, 2), 4: (16, 1), 7: (12, 2), 8: (16, 2), 11: (24, 2), 19: (40, 2),
     43: (88, 2), 67: (136, 2), 163: (328, 2), # FAIL: Z = 22, 34, 82
 }
