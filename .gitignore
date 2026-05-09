@@ -1,1 +1,5 @@
-
+*.sage.py
+__pycache__/
+.sage/
+*.swp
+.DS_Store
